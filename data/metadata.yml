@@ -46,6 +46,11 @@ frameworks:
     - plasma-framework
     - kdecoration
     - breeze
+    - kcmutils
+    - kdelibs4support
+    - kross
+    - knotifyconfig
+    - kparts
 type: git
 url: http://anongit.kde.org/calligra
 buildsystem: cmake
