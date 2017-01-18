@@ -48,6 +48,7 @@ frameworks:
     - breeze
     - kcmutils
     - kdesignerplugin
+    - kparts
     - kdelibs4support
     - kross
     - knotifyconfig
