@@ -53,6 +53,7 @@ frameworks:
     - kinit
     - kded
     - kemoticons
+    - kitemmodels
     - kdelibs4support
     - kross
     - knotifyconfig
