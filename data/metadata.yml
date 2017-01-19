@@ -49,6 +49,7 @@ frameworks:
     - kcmutils
     - kdesignerplugin
     - kparts
+    - kunitconversion
     - kdelibs4support
     - kross
     - knotifyconfig
