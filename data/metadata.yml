@@ -1,6 +1,7 @@
 name: calligra
-packages: ''
+packages:
   #app specifc
+  - libeigen3-dev
 frameworks:
   build_kf5: true
   frameworks:
@@ -57,6 +58,10 @@ frameworks:
     - kdelibs4support
     - kross
     - knotifyconfig
+    - khtml
+    - marble
+    - threadweaver
+    -
 type: git
 url: http://anongit.kde.org/calligra
 buildsystem: cmake
