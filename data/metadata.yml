@@ -50,6 +50,7 @@ frameworks:
     - kdesignerplugin
     - kparts
     - kunitconversion
+    - kinit
     - kded
     - kdelibs4support
     - kross
