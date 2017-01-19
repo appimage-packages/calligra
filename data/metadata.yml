@@ -58,10 +58,10 @@ frameworks:
     - kdelibs4support
     - kross
     - knotifyconfig
+    - kjs
     - khtml
     - marble
     - threadweaver
-    -
 type: git
 url: http://anongit.kde.org/calligra
 buildsystem: cmake
