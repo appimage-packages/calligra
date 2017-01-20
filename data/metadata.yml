@@ -69,6 +69,7 @@ frameworks:
     - marble
     - threadweaver
     - kdiagram
+    - kproperty
     - kreport
     - okular
 type: git
