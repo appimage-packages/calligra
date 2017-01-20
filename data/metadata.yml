@@ -12,7 +12,6 @@ packages:
   - libspectre-dev
   - libchm-dev
   - libepub-dev
-  - libexiv2-dev
 frameworks:
   build_kf5: true
   frameworks:
@@ -110,3 +109,11 @@ dependencies:
       source:
         type: xz
         url: 'https://sourceforge.net/projects/libwpd/files/librevenge/librevenge-0.0.4/librevenge-0.0.4.tar.xz'
+  - exiv2:
+      build:
+        buildsystem: cmake
+        buildoptions: '-DCMAKE_INSTALL_PREFIX:PATH=/opt/usr'
+      depname: exiv2-0.25
+      source:
+        type: gz
+        url: 'http://www.exiv2.org/exiv2-0.25.tar.gz'
