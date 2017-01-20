@@ -88,7 +88,7 @@ dependencies:
       build:
         buildsystem: cmake
         buildoptions: '-DCMAKE_INSTALL_PREFIX=/opt/Vc -DBUILD_TESTING=OFF'
-      depname: vc
+      depname: Vc
       source:
         type: git
         url: 'https://github.com/VcDevel/Vc'
