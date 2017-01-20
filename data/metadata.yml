@@ -7,7 +7,6 @@ packages:
   - libwpg-dev
   - libetonyek-dev
   - libvisio-dev
-  - librevenge-dev
   - libwpg-dev
 frameworks:
   build_kf5: true
@@ -93,3 +92,11 @@ dependencies:
       source:
         type: git
         url: 'https://github.com/VcDevel/Vc'
+  - librevenge:
+      build:
+        buildsystem: make
+        buildoptions: ''
+      depname: librevenge-0.0.4
+      source:
+        type: xz
+        url: 'https://sourceforge.net/projects/libwpd/files/librevenge/librevenge-0.0.4/librevenge-0.0.4.tar.xz'
