@@ -8,6 +8,11 @@ packages:
   - libetonyek-dev
   - libvisio-dev
   - libwpg-dev
+  - libgif-dev
+  - libspectre-dev
+  - libchm-dev
+  - libepub-dev
+  - libexiv2-dev
 frameworks:
   build_kf5: true
   frameworks:
@@ -71,6 +76,11 @@ frameworks:
     - kdiagram
     - kproperty
     - kreport
+    - kparts
+    - libkexiv2
+    - kdegraphics-mobipocket
+    - qca
+    - kpty
     - okular
 type: git
 url: http://anongit.kde.org/calligra
