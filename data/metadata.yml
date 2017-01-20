@@ -2,6 +2,13 @@ name: calligra
 packages:
   #app specifc
   - libeigen3-dev
+  - libgit2-dev
+  - libodfgen-dev
+  - libwpg-dev
+  - libetonyek-dev
+  - libvisio-dev
+  - librevenge-dev
+  - libwpg-dev
 frameworks:
   build_kf5: true
   frameworks:
@@ -62,6 +69,9 @@ frameworks:
     - khtml
     - marble
     - threadweaver
+    - kdiagram
+    - kreport
+    - okular
 type: git
 url: http://anongit.kde.org/calligra
 buildsystem: cmake
@@ -75,3 +85,11 @@ dependencies:
       source:
         type: none
         url: ''
+  - vc:
+      build:
+        buildsystem: cmake
+        buildoptions: '-DCMAKE_INSTALL_PREFIX=/opt/Vc -DBUILD_TESTING=OFF'
+      depname: vc
+      source:
+        type: git
+        url: 'https://github.com/VcDevel/Vc'
