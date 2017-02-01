@@ -1,4 +1,5 @@
 name: calligra
+binary: calligra
 packages:
   #app specifc
   - libeigen3-dev
